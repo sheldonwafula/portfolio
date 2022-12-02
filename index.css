@@ -6,11 +6,14 @@
 }
 
 .logo {
-  position: relative;
+  position: absolute;
+  top: 58px;
+  left: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  right: 275;
   line-height: 20px;
   display: flex;
   align-items: center;
@@ -26,8 +29,9 @@
 
 .menu {
   position: absolute;
-  top: 58px;
+  top: 63px;
   right: 36px;
+
 }
 
 .menu:hover {
@@ -35,7 +39,7 @@
 }
 
 .content {
-  background-image: url("images/header-shapes\ mobile.png");
+  background-image: url("images/ground.png");
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -47,9 +51,11 @@
 .myname {
   width: 327px;
   height: 150px;
-  position: relative;
+  position: absolute;
   top: 206px;
-  left: 20px;
+  left: 24px;
+  bottom: 362px;
+  right: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -64,9 +70,10 @@
 }
 
 .information {
-  position: relative;
-  top: 200px;
-  left: 20px;
+  position: absolute;
+  top: 368px;
+  left: 24px;
+  bottom: 204px;
   height: 146px;
   display: flex;
   width: 320px;
@@ -82,9 +89,9 @@
 }
 
 .connection {
-  position: relative;
-  top: 200px;
-  left: 20px;
+  position: absolute;
+  bottom: 168px;
+  left: 24px;
   height: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -101,16 +108,30 @@
 }
 
 .icons {
-  position: relative;
-  top: 200px;
-  left: 20px;
+  position: absolute;
+  top: 562px;
+  left: -24px;
+  right: 180px;
+  bottom: 138px;
+  bottom: 136px;
+  margin-top: 20px;
+
+
+  
+
+}
+.icons li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    
+
 }
 
-.icons img {
-  margin-right: 10px;
-  color: #505f79;
-}
 
 .icons img:hover {
   background-color: crimson;
+}
+a{
+    text-decoration: none;
 }
