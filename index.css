@@ -7,7 +7,6 @@
 
 .logo {
   position: absolute;
-  top: 58px;
   left: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -18,8 +17,6 @@
   display: flex;
   align-items: center;
   text-align: center;
-  left: 24px;
-  right: 275;
   top: 28px;
   color: #6070ff;
   flex: none;
@@ -31,7 +28,6 @@
   position: absolute;
   top: 63px;
   right: 36px;
-
 }
 
 .menu:hover {
@@ -115,23 +111,18 @@
   bottom: 138px;
   bottom: 136px;
   margin-top: 20px;
-
-
-  
-
-}
-.icons li{
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    
-
 }
 
+.icons li {
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
 
 .icons img:hover {
   background-color: crimson;
 }
-a{
-    text-decoration: none;
+
+a {
+  text-decoration: none;
 }
