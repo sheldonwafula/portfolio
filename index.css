@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .navbar {
   margin-bottom: 10px;
   padding: 10px;
 }
 
 .logo {
-  position: absolute;
+  margin-top: 58px;
   left: 24px;
+  padding-left: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -25,8 +31,7 @@
 }
 
 .menu {
-  position: absolute;
-  top: 63px;
+  margin-top: 68px;
   right: 36px;
 }
 
@@ -47,11 +52,9 @@
 .myname {
   width: 327px;
   height: 150px;
-  position: absolute;
-  top: 206px;
-  left: 24px;
-  bottom: 362px;
-  right: 24px;
+  margin-top: 128px;
+  margin-left: 24px;
+  margin-right: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -62,15 +65,10 @@
   color: #172b4d;
   flex: none;
   order: 0;
-  flex-grow: 1;
 }
 
 .information {
-  position: absolute;
-  top: 368px;
-  left: 24px;
-  bottom: 204px;
-  height: 146px;
+  margin-left: 24px;
   display: flex;
   width: 320px;
   font-family: Poppins, sans-serif;
@@ -85,9 +83,7 @@
 }
 
 .connection {
-  position: absolute;
-  bottom: 168px;
-  left: 24px;
+  margin-left: 24px;
   height: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -104,12 +100,7 @@
 }
 
 .icons {
-  position: absolute;
-  top: 562px;
-  left: -24px;
-  right: 180px;
-  bottom: 138px;
-  bottom: 136px;
+  margin-left: -24px;
   margin-top: 20px;
 }
 
