@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "<!--\r HOW TO USE:\r This is an example of how you may give instructions on setting up your project locally.",
   "main": "index.js",
   "dependencies": {
     "abab": "^2.0.6",
