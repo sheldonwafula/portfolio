@@ -1,4 +1,4 @@
-<a name="readme-top"></a>
+# portfolio<a name="readme-top"></a>
 
 <!--
 HOW TO USE:
@@ -244,7 +244,7 @@ If you like this project follow me on github
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank Raphel obuko for his endless support during this project.
+I would like to thank Alazar for his endless support during this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
